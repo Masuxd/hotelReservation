@@ -31,52 +31,56 @@ int main() {
 
 	// checking the input
 	do {
-		error = false;
+		//Simple main menu for choosing options
+		cout << "_______________________________________________________" << endl;
+		cout << "	 Welcome to the hotel reservation" << endl;
+		cout << "_______________________________________________________" << endl;
+		cout << "If you want to reserve a room type 1" << endl;
+		cout << "If you want to see what rooms have been reserved type 2" << endl;
+		cout << "If you want to search a specific room or check-in key type 3" << endl;
+		cout << "If you want to quit type 4" << endl;
 		cout << "Type here and press enter:  ";
 		cin >> options;
+		error = false;
 
 		if (cin.fail()) {
 			cout << "Error. Enter your number again!" << endl;
-			error = true;
 			cin.clear();
-			cin.ignore(80, '\n');
-		}
-		else if (options > 3) {
-			cout << "Error that option doesn't exist. Enter your number again!";
-			error = true;
-			cin.clear();
-			cin.ignore(80, '\n');
+			cin.ignore(numeric_limits<streamsize>::max(), '\n');
+			continue;
 		}
 
+
+			switch (options) {
+
+				case 1:
+					cout << "______________________________________________________________" << endl;
+					cout << "		Room reservation" << endl;
+					cout << "______________________________________________________________" << endl;
+
+					random();
+					cout << endl;
+					break;
+
+				case 2:
+					cout << "Goodbye";
+					return 0;
+					break;
+
+				default:
+					cout << "You have to choose between 1 and 2!";
+					cout << endl;
+				}
+		
 	} while (options);
+	
 
 
-	switch (options)
-	{
-
-		menu = false;
-
-		switch (choice) {
-
-		case 1:
-			cout << "______________________________________________________________" << endl;
-			cout << "		Room reservation" << endl;
-			cout << "______________________________________________________________" << endl;
-
-			random();
-			break;
-
-		case 2:
-			return 0;
-
-		default:
-			cout << "You have to choose between 1 and 2!";
-
-		}
-
-	}
 
 
+
+
+	
 
 
 

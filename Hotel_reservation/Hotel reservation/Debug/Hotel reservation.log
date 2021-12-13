@@ -1,3 +1,4 @@
 ﻿  Source.cpp
-C:\Users\POMO\Desktop\github\Hotel_reservation\Hotel reservation\Source.cpp(93,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Hotel reservation.vcxproj -> C:\Users\POMO\Desktop\github\Hotel_reservation\Debug\Hotel reservation.exe
+C:\Users\POMO\Desktop\github\Hotel_reservation\Hotel reservation\Source.cpp(24,18): warning C4101: 'reservations': unreferenced local variable
+C:\Users\POMO\Desktop\github\Hotel_reservation\Hotel reservation\Source.cpp(121,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\POMO\Desktop\github\Hotel_reservation\Hotel reservation\Source.cpp(78): error C4700: uninitialized local variable 'i' used

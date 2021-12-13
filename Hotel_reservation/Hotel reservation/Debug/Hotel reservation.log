@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\POMO\source\repos\Hotel reservation\Hotel reservation\Source.cpp(59,11): error C2065: 'choice': undeclared identifier
+C:\Users\POMO\source\repos\Hotel reservation\Hotel reservation\Source.cpp(59,19): error C2050: switch expression not integral
+C:\Users\POMO\source\repos\Hotel reservation\Hotel reservation\Source.cpp(77,2): warning C4060: switch statement contains no 'case' or 'default' labels
+C:\Users\POMO\source\repos\Hotel reservation\Hotel reservation\Source.cpp(89,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data

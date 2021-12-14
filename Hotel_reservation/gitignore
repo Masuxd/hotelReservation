@@ -362,21 +362,3 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
-Debug/
-*.suo
-Hotel reservation/.vs/
-Hotel reservation/Debug/
-*.suo
-*.user
-_ReSharper.*/
-*.sdf
-bin/
-obj/
-Debug/
-Release/
-*.opensdf
-*.tlog
-*.log
-TestResult.xml
-*.VisualState.xml
-
